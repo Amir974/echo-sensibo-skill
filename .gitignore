@@ -1,6 +1,6 @@
 # Amir Settings
-.docx
-.zip
+*.docx
+*.zip
 requests-2.8.1.dist-info
 earlier versions
 
