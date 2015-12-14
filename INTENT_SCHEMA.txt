@@ -78,22 +78,16 @@
       ]
     },
     {
-      "intent": "AMAZON.HelpIntent"
+      "intent": "HelpIntent",
+      "slots": [
+        {
+          "name": "helpType",
+          "type": "HELP_TYPES"
+        }        
+      ]
+    },
+    {
+      "intent": "ResetIntent"
     }
   ]
 }
-
-
-
-GetStatusIntent status
-GetSettingsIntent settings status
-GetFullIntent full status
-TurnOnIntent turn on
-ShutdownIntent shut down
-IncreaseIntent increase temperature
-IncreaseIntent increase temperature by {IncDecBy}
-DecreaseIntent decrease temperature by {IncDecBy}
-SetModeIntent set mode to {ModeType}
-SetFanIntent set fan to {FanSpeed}
-SetTempIntent set temp to {Temperature}
-SetAllIntent set {ModeType} fan {FanSpeed} temp {Temperature}
