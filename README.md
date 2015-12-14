@@ -5,7 +5,7 @@
 
 Use / modify as you wish - ** for private use only **
 
-### What you will need
+## What you will need
 
 	- Basic understanding of python / coding skills
 	- Recommended reading: https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide
@@ -14,9 +14,9 @@ Use / modify as you wish - ** for private use only **
 	- Access to Sensibo web app where you will get your API key https://home.sensibo.com/me/api
 	
 	
-### Installation Instructions
+## Installation Instructions
 
-	** Getting the code ready **
+### Getting the code ready
 	
 	- Download the content of this git to a local folder
 	- Edit lambda_function.py
@@ -30,9 +30,9 @@ Use / modify as you wish - ** for private use only **
 		the file: lambda_function.py
 		The sub folder: requests
 		
-	** Creating the Lambda function **
+### Creating the Lambda function
 	
-	- Open Lamnda section in AWS https://console.aws.amazon.com/lambda/
+	- Open Lambda section in AWS https://console.aws.amazon.com/lambda/
 	- Make sure you are using east USA location (top right selection near your profile name)
 	- Click "Create a Lambda function"
 	- Click "Skip"
@@ -49,7 +49,7 @@ Use / modify as you wish - ** for private use only **
 		should look something like this:
 			arn:aws:lambda:us-east-1:3423432:function:functionname
 	
-	** Setting app the skill **
+### Setting app the skill
 	
 	- In "Amazon developer portal" choose "Apps & Services" and under that "Alexa"
 	- Click "Get Started" for "Alexa Skills Kit", than "Add a New Skill"
@@ -75,9 +75,9 @@ Use / modify as you wish - ** for private use only **
 	** At this point the app can only by used by an Amazon Echo which is resisted to the same user as the Amazon developers portal! **
 	** Note this code is intended for personal use only and not for public installation / release of official skill!
 	
-	### What's next?
+## What's next?
 	
-		If you followed all the above and nothing went wrong, you should be able to control your Sensibo using you Amazon echo...
+	If you followed all the above and nothing went wrong, you should be able to control your Sensibo using you Amazon echo...
 		
 	Contact me for question / problems via email.
 	
