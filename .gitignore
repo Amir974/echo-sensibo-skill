@@ -3,6 +3,7 @@
 *.zip
 requests-2.8.1.dist-info
 earlier versions
+lambda_function - Copy.py
 
 # Windows image file caches
 Thumbs.db
