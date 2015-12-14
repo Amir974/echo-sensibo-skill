@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "intent": "SetAllIntent",
+      "slots": [
+        {
+          "name": "ModeType",
+          "type": "LIST_OF_MODE_TYPES"
+        },
+        {
+          "name": "FanSpeed",
+          "type": "LIST_OF_FANSPEED"
+        },
+        {
+          "name": "Temperature",
+          "type": "LIST_OF_TEMP"
+        }        
+      ]
+    },
+    {
+      "intent": "SetModeIntent",
+      "slots": [
+        {
+          "name": "ModeType",
+          "type": "LIST_OF_MODE_TYPES"
+        }        
+      ]
+    },
+    {
+      "intent": "SetTempIntent",
+      "slots": [
+        {
+          "name": "Temperature",
+          "type": "LIST_OF_TEMP"
+        }        
+      ]
+    },
+    {
+      "intent": "SetFanIntent",
+      "slots": [
+        {
+          "name": "FanSpeed",
+          "type": "LIST_OF_FANSPEED"
+        }        
+      ]
+    },
+    {
+      "intent": "GetStatusIntent"
+    },
+    {
+      "intent": "GetSettingsIntent"
+    },
+    {
+      "intent": "GetFullIntent"
+    },
+    {
+      "intent": "TurnOnIntent"
+    },	
+    {
+      "intent": "ShutdownIntent"
+    },
+    {
+      "intent": "IncreaseIntent",
+      "slots": [
+        {
+          "name": "IncDecBy",
+          "type": "INC_BY_OPTIONS"
+        }        
+      ]
+    },	
+    {
+      "intent": "DecreaseIntent",
+      "slots": [
+        {
+          "name": "IncDecBy",
+          "type": "INC_BY_OPTIONS"
+        }        
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+
+
+
+GetStatusIntent status
+GetSettingsIntent settings status
+GetFullIntent full status
+TurnOnIntent turn on
+ShutdownIntent shut down
+IncreaseIntent increase temperature
+IncreaseIntent increase temperature by {IncDecBy}
+DecreaseIntent decrease temperature by {IncDecBy}
+SetModeIntent set mode to {ModeType}
+SetFanIntent set fan to {FanSpeed}
+SetTempIntent set temp to {Temperature}
+SetAllIntent set {ModeType} fan {FanSpeed} temp {Temperature}
