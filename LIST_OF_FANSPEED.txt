@@ -1,4 +1,0 @@
-low
-medium
-hight
-auto
